@@ -1,0 +1,10 @@
+﻿  Pattern.cpp
+c:\users\user\source\repos\project1\factory\pattern.cpp(54): error C2059: syntax error: ')'
+c:\users\user\source\repos\project1\factory\pattern.cpp(55): error C2143: syntax error: missing ';' before '{'
+c:\users\user\source\repos\project1\factory\pattern.cpp(56): error C2046: illegal case
+c:\users\user\source\repos\project1\factory\pattern.cpp(59): error C2046: illegal case
+c:\users\user\source\repos\project1\factory\pattern.cpp(62): error C2047: illegal default
+c:\users\user\source\repos\project1\factory\pattern.cpp(63): error C2046: illegal case
+c:\users\user\source\repos\project1\factory\pattern.cpp(58): error C2043: illegal break
+c:\users\user\source\repos\project1\factory\pattern.cpp(61): error C2043: illegal break
+c:\users\user\source\repos\project1\factory\pattern.cpp(65): error C2043: illegal break
