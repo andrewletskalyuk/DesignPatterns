@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Notebook">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAEAAAAAAAACIAAEAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>FirstBuilder.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoteBookBuilder">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAABAI=</HashCode>
+      <FileName>FirstBuilder.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameNoteBook">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAQAAAAAAAABAI=</HashCode>
+      <FileName>FirstBuilder.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HomeNoteBook">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAIAABAI=</HashCode>
+      <FileName>FirstBuilder.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomNoteBook">
+    <Position X="2.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAAAAAAABAI=</HashCode>
+      <FileName>FirstBuilder.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
