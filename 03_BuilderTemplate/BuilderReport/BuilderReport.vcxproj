@@ -20,8 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{A71C761C-3238-4BAB-945C-283195D96ED9}</ProjectGuid>
-    <RootNamespace>BuilderRedactor</RootNamespace>
+    <ProjectGuid>{A45AE015-6FB8-4955-90C7-460B4EBE1B72}</ProjectGuid>
+    <RootNamespace>BuilderReport</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -115,7 +115,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Redactor.cpp" />
+    <ClCompile Include="BuilderReport.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -6,46 +6,47 @@ using namespace std;
 
 //патерн білдер - призначений для об"єкту що складається з менших частин
 
-class Notebook
+class NoteBook
 {
 private:
 	string name;
-	map<string, string> ourmap;
+	map<string, string> mapnote;
 public:
-	Notebook(string n = "Notebook") : name(n)
+	NoteBook(string n = "Notebook") : name(n)
 	{
 	}
 	string getPart(const string& key)
 	{
-		return ourmap[key];
+		return mapnote[key];
 	}
 	void setPart(string key, string value)
 	{
-		this->ourmap[key] = value;
+		this->mapnote[key] = value;
 	}
 	void Show()
 	{
-		for (auto el : ourmap)
+		cout << name << endl;
+		for (auto el : mapnote)
 		{
 			cout << el.first << " " << el.second << endl;
 		}
 	}
-	bool CheckPart(string key)
+	bool DoesThisButtonExist(string key)
 	{
-		return	ourmap.find(key) != ourmap.end() ? true : false;
+		return	mapnote.find(key) != mapnote.end() ? true : false;
 	}
 };
 
 class NoteBookBuilder
 {
 protected:
-	Notebook* device;
+	NoteBook* device;
 public:
 	virtual void setMemory() = 0;
 	virtual void setHDD() = 0;
 	virtual void setMatrix() = 0;
 	virtual void setCPU() = 0;
-	Notebook* getDevice()
+	NoteBook* getDevice()
 	{
 		return this->device;
 	}
@@ -53,11 +54,10 @@ public:
 
 class GameNoteBook : public NoteBookBuilder
 {
-
 public:
 	GameNoteBook()
 	{
-		device = new Notebook("GameNoteBook");
+		device = new NoteBook("GameNoteBook");
 	}
 	void setMemory()
 	{
@@ -82,7 +82,7 @@ class HomeNoteBook : public NoteBookBuilder
 public:
 	HomeNoteBook()
 	{
-		device = new Notebook("HomeNoteBook");
+		device = new NoteBook("HomeNoteBook");
 	}
 	void setMemory()
 	{
@@ -107,7 +107,7 @@ class CustomNoteBook : public NoteBookBuilder
 public:
 	CustomNoteBook()
 	{
-		device = new Notebook("CustumerNoteBook");
+		device = new NoteBook("CustumerNoteBook");
 	}
 	void setMemory()
 	{
